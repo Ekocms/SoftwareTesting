@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>20002060331安诣暄</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Test Case1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.qunar.com/<datalist><option>https://www.qunar.com/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=header_search_input<datalist><option>id=header_search_input</option><option>xpath=//input[@id='header_search_input']</option><option>xpath=//div[@id='search_input_div']/div/input</option><option>xpath=//input</option><option>css=#header_search_input</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=header_search_input<datalist><option>id=header_search_input</option><option>xpath=//input[@id='header_search_input']</option><option>xpath=//div[@id='search_input_div']/div/input</option><option>xpath=//input</option><option>css=#header_search_input</option></datalist></td><td>万达广场</td></tr>
+<tr><td>sendKeys</td><td>id=header_search_input<datalist><option>id=header_search_input</option><option>xpath=//input[@id='header_search_input']</option><option>xpath=//div[@id='search_input_div']/div/input</option><option>xpath=//input</option><option>css=#header_search_input</option></datalist></td><td>${KEY_ENTER}</td></tr>
+<tr><td>selectWindow</td><td>win_ser_1<datalist><option>win_ser_1</option></datalist></td><td></td></tr>
+<tr><td>verifyTitle</td><td>万达广场门票,万达广场门票预订,万达广场门票价格,去哪儿网门票<datalist><option>猫_百度搜索</option><option>万达广场门票,万达广场门票预订,万达广场门票价格,去哪儿网门票</option></datalist></td><td></td></tr>
+<tr><td>verifyVisible</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='/5'])[1]/following::span[1]<datalist><option>link=猫(猫科猫属动物) - 百度百科</option><option>猫</option><option>猫科猫属动物</option><option>猫(猫科猫属动物) - 百度百科</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='/5'])[1]/following::span[1]</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Test Case2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.qunar.com/<datalist><option>https://www.qunar.com/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=__headerInfo_login__<datalist><option>id=__headerInfo_login__</option><option>link=登录</option><option>xpath=//a[contains(text(),'登录')]</option><option>xpath=//a[@id='__headerInfo_login__']</option><option>xpath=//li[@id='__loginInfo_u__']/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='请'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='适老化及无障碍'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='或'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='免费注册'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='登录']/parent::*</option><option>xpath=//a[contains(@href, 'https://user.qunar.com/passport/login.jsp?ret=https%3A%2F%2Fwww.qunar.com%2F')]</option><option>xpath=//li[2]/a</option><option>css=#__headerInfo_login__</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://user.qunar.com/passport/login.jsp?ret=https%3A%2F%2Fwww.qunar.com%2F<datalist><option>https://user.qunar.com/passport/login.jsp?ret=https%3A%2F%2Fwww.qunar.com%2F</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='app']/div/div[2]/div/div/div[2]/div/div[6]<datalist><option>xpath=//div[@id='app']/div/div[2]/div/div/div[2]/div/div[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='语音验证码'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='获取'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='忘记密码?'])[1]/preceding::div[9]</option><option>xpath=//div[6]</option><option>css=div.button</option></datalist></td><td></td></tr>
+<tr><td>assertVisible</td><td>xpath=//div[@id='app']/div/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div/span<datalist><option>id=address-error</option><option>id=submit-msg</option><option>xpath=//img[contains(@src,'https://picbed.qunarzz.com/cd50fd3a6cf176da5b24309dcc144fec.png')]</option><option>xpath=//div[@id='app']/div/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div/span</option><option>id=telphone</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Test Case3</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.qunar.com/<datalist><option>https://www.qunar.com/</option></datalist></td><td></td></tr>
+<tr><td>verifyValue</td><td>id=js_intersearchtype_roundtrip<datalist><option>xpath=//form[@id='infoForm']/div[11]/div/div[2]/label/input</option><option>xpath=//form[@id='infoForm']/div[11]/div/div[2]/label</option><option>id=js_intersearchtype_roundtrip</option></datalist></td><td>on</td></tr>
+<tr><td>verifyValue</td><td>id=js_intersearchtype_oneway<datalist><option>id=js_intersearchtype_oneway</option><option>id=js_intersearchtype_roundtrip</option><option>xpath=//form[@id='infoForm']/div[11]/div/div[2]/label/input</option><option>xpath=//form[@id='infoForm']/div[11]/div/div[2]/label</option></datalist></td><td>off</td></tr>
+<tr><td>click</td><td>id=js_intersearchtype_oneway<datalist><option>id=js_intersearchtype_oneway</option><option>xpath=//input[@id='js_intersearchtype_oneway']</option><option>xpath=//form[@id='js_flight_international_searchbox']/div/div/label/input</option><option>xpath=//div[2]/form/div/div/label/input</option><option>css=#js_intersearchtype_oneway</option></datalist></td><td></td></tr>
+<tr><td>verifyValue</td><td>id=js_intersearchtype_oneway<datalist><option>id=js_intersearchtype_roundtrip</option><option>xpath=//form[@id='infoForm']/div[11]/div/div[2]/label/input</option><option>xpath=//form[@id='infoForm']/div[11]/div/div[2]/label</option><option>id=js_intersearchtype_oneway</option></datalist></td><td>on</td></tr>
+<tr><td>verifyValue</td><td>id=js_intersearchtype_roundtrip<datalist><option>id=js_intersearchtype_oneway</option><option>id=js_intersearchtype_roundtrip</option><option>xpath=//form[@id='infoForm']/div[11]/div/div[2]/label/input</option><option>xpath=//form[@id='infoForm']/div[11]/div/div[2]/label</option></datalist></td><td>off</td></tr>
+</tbody></table>
+</body>
+</html>
